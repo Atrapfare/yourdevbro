@@ -1,0 +1,42 @@
+# ===== Root Level =====
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+*.log
+
+# ===== FRONTEND (Vue.js) =====
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Optional
+frontend/.vscode/
+
+# ===== BACKEND (Spring Boot + Maven) =====
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+backend/.env
+backend/application.properties
+backend/application.yml
+backend/application-*.properties
+backend/application-*.yml
+
+# IDE / Editor / OS Files
+backend/.idea/
+backend/*.iml
+backend/*.log
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.vscode/
+
+# ===== System files =====
+*.swp
+*~
